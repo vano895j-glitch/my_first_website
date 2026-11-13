@@ -1,0 +1,42 @@
+table {
+    border-collapse:collapse ;      /*Без задвоенных границ */
+    margin-left: 20px;              /* внешний отступ слева*/
+}
+
+th,td {
+    border: 1px solid #6200ff; /* граница таблиц*/
+    padding: 8px;                /* внутренний отступ */   
+}
+
+tabtable td:nth-child(2),
+table td:nth-child(3) {
+    text-align: center;          /* по центру во 3 и 3 колонках */
+}
+
+.student_marks th,
+.student_marks td {
+    border: 5px solid #6200ff; /* Граница таблицы */
+    padding: 4px;                /* внутренние отступы */
+    background-color: #e2dae8;
+}
+
+.red {
+    padding: 12px;
+    width: 600px;
+    background-color: #fa8f79;
+}
+
+.yellow {
+    padding: 12px;
+    width: 600px;
+    background-color: #f8e577;
+}
+
+.green {
+    padding: 12px;
+    width: 600px;
+    background-color: #7bff00;
+}
+.flip_vert {
+    transform: scaleY(-1);
+}
